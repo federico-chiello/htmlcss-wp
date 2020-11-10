@@ -153,6 +153,7 @@ section.maincorp p {
 }
 /* / maincorp */
 
+/* Inizio widgets */
 .col-right {
   width: 20%;
 }
@@ -163,8 +164,8 @@ section.maincorp p {
   background-color: pink;
   margin-bottom: 30px;
 }
-
-/* / maincorp */
+/* / widgets */
+/* / corpo principale */
 
 /* Inizio footer */
 footer {
