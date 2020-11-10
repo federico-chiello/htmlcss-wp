@@ -20,6 +20,10 @@ body {
   padding: 10px;
 }
 
+h2 {
+  color: rgba(6, 6, 6, 0.74);
+}
+
 /* Inizio intestazione */
 header {
   height: 400px;
@@ -154,15 +158,24 @@ section.maincorp p {
 /* / maincorp */
 
 /* Inizio widgets */
-.col-right {
+.widgets {
   width: 20%;
 }
 
-.box {
+.widget {
   width: 100%;
-  height: 400px;
-  background-color: pink;
+  background-color: white;
+  border-radius: 5px;
   margin-bottom: 30px;
+  padding: 15px;
+}
+
+.widget h2 {
+  margin-bottom: 30px;
+}
+
+.widget p {
+  line-height: 30px;
 }
 /* / widgets */
 /* / corpo principale */
