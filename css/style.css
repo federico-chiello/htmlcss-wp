@@ -107,6 +107,18 @@ main{
   font-size: 30px;
 }
 
+.themes-title h2 {
+  width: 80%;
+  height: 50px;
+  background-color: blue;
+}
+
+.themes-header::after {
+  content:'';
+  display: table;
+  clear:both;
+}
+
 /* / themes */
 
 .maincorp {
