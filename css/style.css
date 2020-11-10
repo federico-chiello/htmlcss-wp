@@ -66,6 +66,14 @@ nav {
 nav .menu li{
   list-style: none;
   display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+}
+
+nav .menu li a {
+  color: white;
+  text-decoration: none;
 }
 /* / nav */
 
