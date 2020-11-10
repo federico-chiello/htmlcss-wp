@@ -36,6 +36,19 @@ header {
   height: 360px;
   background-image: url('../img/natural-header.jpg');
   border: 10px solid white;
+  position: relative;
+}
+
+.header-image {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-image img {
+  width: 50%;
 }
 /* / intestazione */
 
