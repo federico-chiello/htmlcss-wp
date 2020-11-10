@@ -86,13 +86,15 @@ nav .menu li:hover {
 /* Inizio corpo centrale */
 main{
   width: 100%;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
-.col-left {
+.themes {
   width: 20%;
   height: 500px;
-  background-color: pink;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
 }
 
 .maincorp {
