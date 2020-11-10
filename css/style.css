@@ -8,12 +8,6 @@
   float: left;
 }
 
-.clearfix::after {
-  content:'';
-  display: table;
-  clear: both;
-}
-
 body {
   background-image: url('../img/natural-pattern.png');
   background-size: cover;
@@ -85,8 +79,14 @@ nav .menu li:hover {
 
 /* Inizio corpo centrale */
 main{
-  width: 100%;
+  /* width: 100%; */
   margin: 10px 0;
+}
+
+main::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 /* Inizio themes */
@@ -102,7 +102,6 @@ main{
   width: 100%;
   height: 100px;
   background-color: pink;
-
 }
 
 .themes-logo {
@@ -111,13 +110,12 @@ main{
 
 .themes-logo i {
   color: orange;
-  font-size: 30px;
+  font-size: 40px;
 }
 
-.themes-title h2 {
+.themes-title {
   width: 80%;
-  height: 50px;
-  background-color: blue;
+  padding-left: 10px;
 }
 
 .themes-header::after {
