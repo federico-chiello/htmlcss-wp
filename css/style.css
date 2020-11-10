@@ -17,6 +17,7 @@
 body {
   background-image: url('../img/natural-pattern.png');
   background-size: cover;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -80,7 +81,6 @@ nav .menu li:hover {
   background-color: lightgrey;
 }
 /* / nav */
-
 /* / intestazione */
 
 /* Inizio corpo centrale */
