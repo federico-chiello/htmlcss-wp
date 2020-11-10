@@ -182,8 +182,8 @@ section.maincorp p {
 
 /* Inizio footer */
 footer {
-  height: 150px;
   background-color: white;
+  padding: 3px;
   border-radius: 5px;
   text-align: center;
 }
@@ -196,23 +196,31 @@ footer {
   list-style: none;
 }
 
-a {
-  background-color: green;
-}
-
 .social-list li{
   width: calc(100% / 3)
 }
 
-.social-list i {
+.social-list li a i {
   font-size: 30px;
+  color: lightgrey;
+  padding: 40px;
 }
 
-.social.list::after {
+.social::after {
   content: '';
   display: table;
   clear: both;
 }
 
+.social-list li a:hover #facebook {
+  color: blue;
+}
 
+.social-list li a:hover #instagram {
+  color: rgb(242, 23, 62);
+}
+
+.social-list li a:hover #github {
+  color: black;
+}
 /* / footer */
