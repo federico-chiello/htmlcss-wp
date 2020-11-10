@@ -89,6 +89,7 @@ main{
   margin: 10px 0;
 }
 
+/* Inizio themes */
 .themes {
   width: 20%;
   height: 500px;
@@ -96,6 +97,17 @@ main{
   border-radius: 5px;
   background-color: white;
 }
+
+.themes-logo {
+  width: 20%;
+}
+
+.themes-logo i {
+  color: orange;
+  font-size: 30px;
+}
+
+/* / themes */
 
 .maincorp {
   width: calc(60% - 60px);
