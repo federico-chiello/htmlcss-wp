@@ -75,6 +75,10 @@ nav .menu li a {
   color: white;
   text-decoration: none;
 }
+
+nav .menu li:hover {
+  background-color: lightgrey;
+}
 /* / nav */
 
 /* / intestazione */
