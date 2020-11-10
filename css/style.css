@@ -37,6 +37,7 @@ header {
   background-image: url('../img/natural-header.jpg');
   border: 10px solid white;
   position: relative;
+  text-align: center;
 }
 
 .header-image {
@@ -50,6 +51,24 @@ header {
 .header-image img {
   width: 50%;
 }
+
+.header-image h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Inizio nav */
+nav {
+  background-color: grey;
+  text-align: center;
+}
+
+nav .menu li{
+  list-style: none;
+  display: inline-block;
+}
+/* / nav */
+
 /* / intestazione */
 
 /* Inizio corpo centrale */
