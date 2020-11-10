@@ -182,7 +182,17 @@ section.maincorp p {
 
 /* Inizio footer */
 footer {
-  background-color: lightblue;
   height: 150px;
+  background-color: white;
+  border-radius: 5px;
 }
+
+.footer-top {
+  text-align: center;
+  color: lightgrey;
+}
+
+
+
+
 /* / footer */
