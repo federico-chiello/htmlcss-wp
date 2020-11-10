@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.float-left {
+  float: left;
+}
+
+.clearfix::after {
+  content:'';
+  display: table;
+  clear: both;
+}
+
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2015/07/31/20/35/background-869580__340.png');
+  background-size: cover;
+}
+
+.container {
+  margin: 0 150px;
+  padding: 10px;
+}
+
+/* Inizio intestazione */
+header {
+  height: 400px;
+  background-color: yellow;
+}
+/* / intestazione */
+
+/* Inizio corpo centrale */
+main{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.col-left {
+  width: 20%;
+  height: 500px;
+  background-color: pink;
+}
+
+.maincorp {
+  width: calc(60% - 60px);
+  height: 350px;
+  margin: 0 30px;
+  background-color: violet;
+}
+
+.col-right {
+  width: 20%;
+}
+
+.box {
+  width: 100%;
+  height: 400px;
+  background-color: pink;
+  margin-bottom: 30px;
+}
+
+/* / corpo centrale */
+
+/* Inizio footer */
+footer {
+  background-color: lightblue;
+  height: 150px;
+}
+/* / footer */
