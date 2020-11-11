@@ -25,10 +25,6 @@ h2 {
 }
 
 /* Inizio intestazione */
-header {
-  height: 400px;
-  background-color: yellow;
-}
 
 .header-top {
   width: 100%;
@@ -84,7 +80,6 @@ nav .menu li:hover {
 
 /* Inizio corpo centrale */
 main{
-  /* width: 100%; */
   margin: 10px 0;
 }
 
